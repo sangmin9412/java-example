@@ -1,0 +1,18 @@
+컬렉션(Collection)
+
+List					: 데이터를 순차적으로 저장할 때사용
+-	선언					: List<E> list = new ArrayList<E>();
+-	저장					: list.add(E);
+-	출력					: list.get(index);
+-	리스트의 크기			: list.size();
+
+ 
+Map						: key와 value로 이루어져 있으며 키는 중복될 수 없다.
+-	선언					: Map<key(E), value(E)> map = new HashMap<key(E), value(E)>()
+-	저장					: map.put(key, value);
+-	출력					: map.get(key);
+-	키 가져오기				: Set<E> s = map.keySet();
+-	커서를 이용				: Iterator<E> keys = s.iterator();
+-	이동한 커서에 값 확인		: keys.hasNext();
+-	이동한 커서의 값 가져오기	: keys.next();
+-	리스트의 크기			: map.size();
